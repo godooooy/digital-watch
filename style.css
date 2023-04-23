@@ -53,3 +53,36 @@ main {
 .letras {
   font-size: .9rem;
 }
+
+@media (max-width: 500px) {
+  .container-relogio {
+    height: 700px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bg-relogio {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .bg-relogio:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-relogio {
+    height: 600px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bg-relogio {
+    min-width: 150px;
+    padding: 30px;
+    height: 160px;
+  }
+}
